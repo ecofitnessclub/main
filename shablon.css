@@ -267,7 +267,7 @@ html {
 @media (min-width: 375px) and (max-width: 424px) {
     .head h1 {
         width: 100%;
-        font-size: 25px;
+        font-size: 15px;
     }
 
     .image {
@@ -302,7 +302,7 @@ html {
 @media (min-width: 320px) and (max-width: 374px) {
     .head h1 {
         width: 100%;
-        font-size: 22px;
+        font-size: 12px;
     }
 
     .image {
