@@ -14,21 +14,22 @@
       rel="stylesheet"
       href="OwlCarousel2-2.3.4 2/dist/assets/owl.theme.default.min.css"
     />
+    <link rel="stylesheet" href="animate.css" />
   </head>
   <body>
     <div class="header">
       <div class="filter"></div>
 
-      <h1 class="first">ЛУЧШИЕ ИНСТИТУТЫ</h1>
-      <h1 class="second">И КЛИНИКИ ГЕРМАНИИ</h1>
+      <h1 class="first wow fadeInLeft">ЛУЧШИЕ ИНСТИТУТЫ</h1>
+      <h1 class="second wow fadeInLeft">И КЛИНИКИ ГЕРМАНИИ</h1>
     </div>
 
     <div class="perviy">
       <div class="head">
-        <h1>1. Клиника Мюнхенского университета</h1>
+        <h1 class="wow fadeInLeft">1. Клиника Мюнхенского университета</h1>
       </div>
 
-      <div class="block">
+      <div class="block wow fadeInUpBig">
         <div class="owl-carousel owl-theme">
           <div class="item"><img src="images/2.png" alt="" /></div>
           <div class="item">
@@ -60,10 +61,10 @@
 
       <div class="vtoroi">
         <div class="head">
-          <h1>2. Клиническая больница Швабинг</h1>
+          <h1 class="wow fadeInLeft">2. Клиническая больница Швабинг</h1>
         </div>
 
-        <div class="block">
+        <div class="block wow fadeInUpBig">
           <div class="owl-carousel owl-theme">
             <div class="item"><img src="images/5.png" alt="" /></div>
             <div class="item">
@@ -96,9 +97,11 @@
       </div>
       <div class="third">
         <div class="head">
-          <h1>3. Научно-Исследовательский институт Dein Arzt</h1>
+          <h1 class="wow fadeInLeft">
+            3. Научно-Исследовательский институт Dein Arzt
+          </h1>
         </div>
-        <div class="block">
+        <div class="block wow fadeInUpBig">
           <div class="owl-carousel owl-theme">
             <div class="item"><img src="images/8.png" alt="" /></div>
             <div class="item">
@@ -134,9 +137,9 @@
 
     <div class="fourth">
       <div class="head">
-        <h1>4. Клиники «Асклепиос»</h1>
+        <h1 class="wow fadeInLeft">4. Клиники «Асклепиос»</h1>
       </div>
-      <div class="block">
+      <div class="block wow fadeInUpBig">
         <div class="punct">
           <div class="owl-carousel owl-theme">
             <div class="item"><img src="images/11.png" alt="" /></div>
@@ -171,9 +174,9 @@
 
     <div class="fivth">
       <div class="head">
-        <h1>5. Клиника Шарите</h1>
+        <h1 class="wow fadeInLeft">5. Клиника Шарите</h1>
       </div>
-      <div class="block">
+      <div class="block wow fadeInUpBig">
         <div class="punct">
           <div class="owl-carousel owl-theme">
             <div class="item"><img src="images/14.png" alt="" /></div>
@@ -221,6 +224,10 @@
         dots: false,
         autoplay: true,
       });
+    </script>
+    <script src="wow.min.js"></script>
+    <script>
+      new WOW().init();
     </script>
   </body>
 </html>
