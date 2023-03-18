@@ -1,0 +1,734 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.header {
+    background-image: url(images/57953077_10041.png);
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position-y: -200px;
+    ;
+
+
+}
+
+.owl-carousel {
+    display: none;
+}
+
+.filter {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.448);
+    filter: blur(0.5);
+    z-index: 1;
+}
+
+.header h1 {
+    width: 1290px;
+    height: 99px;
+    background: #27509B;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 85px;
+    line-height: 104px;
+    color: #FFFFFF;
+    margin-top: 25px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+.first {
+    margin-top: -442px !important;
+
+}
+
+.perviy {
+    margin-top: 88px;
+}
+
+.head {
+    width: 825px;
+    height: 36px;
+    background: #27509B;
+    border-radius: 2px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 29px;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 12px;
+}
+
+.block {
+    margin: 0 auto;
+    margin-top: 33px;
+    display: flex;
+    width: 60%;
+}
+
+.left p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #000000;
+    width: 555px;
+    margin-top: 40px;
+}
+
+.right {
+    display: flex;
+    flex-flow: column;
+}
+
+.img3 {
+    width: 390px;
+    height: 291px;
+
+}
+
+.img4 {
+    margin-left: 30px;
+    margin-top: 35px;
+}
+
+.block img {
+    filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 2px;
+}
+
+.left button {
+    width: 352px;
+    height: 48px;
+
+
+    background: #27509B;
+    border-radius: 200px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+    margin-top: 73px;
+    margin-bottom: 187px;
+}
+
+.three {
+    margin-top: -80px;
+}
+
+.punct {
+    display: flex;
+    flex-flow: column;
+
+}
+
+.top {
+    margin-top: 12px;
+    display: flex;
+}
+
+.under {
+    display: flex;
+    margin-top: 0px;
+}
+
+.four {
+    margin-top: 23px;
+}
+
+.block button {
+    width: 352px;
+    height: 48px;
+
+
+    background: #27509B;
+    border-radius: 200px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #FFFFFF;
+    margin-top: 73px;
+    margin-bottom: 187px;
+}
+
+.build {
+    margin-top: -90px;
+    width: 458px;
+    height: 290px;
+    margin-left: 30px;
+}
+
+.under p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #000000;
+    width: 555px;
+    margin-top: 40px;
+    width: 653px;
+    margin-top: 120px;
+}
+
+.under img {
+    margin-left: 30px;
+}
+
+.five {
+    margin-left: 30px;
+    width: 360px;
+    height: 258px;
+}
+
+.building {
+    margin-top: -60px;
+}
+
+a {
+    text-decoration: none;
+}
+
+@media (min-width: 1440px) and (max-width: 1600px) {
+
+    .header {
+        background-position-y: -170px;
+    }
+
+    .block {
+        width: 80%;
+    }
+
+    .img3 {
+        margin-left: 130px;
+    }
+
+    .build {
+
+        margin-left: 216px;
+        margin-top: -93px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+
+    html {
+        overflow-x: hidden;
+    }
+
+    .header {
+        background-position-y: 0px;
+    }
+
+    .block {
+        width: 80%;
+    }
+
+    .img3 {
+        margin-left: -17px;
+        margin-top: 100px;
+    }
+
+    .img4 {
+        margin-left: 64px;
+        margin-top: 35px;
+        width: 300px;
+    }
+
+    .build {
+        /* margin-left: -11px; */
+        margin-left: 1px;
+        margin-top: -30px;
+        width: 400px;
+    }
+
+    .header h1 {
+        width: 844px;
+
+        font-size: 55px;
+
+    }
+
+    .left {
+        width: 45%;
+    }
+
+    .right {
+        width: 45%;
+        margin-left: 135px;
+    }
+
+    .under img {
+        margin-left: 30px;
+        width: 400px;
+        height: 300px;
+        margin-top: 100px;
+    }
+
+    .under {
+        width: 80%;
+    }
+
+    .five {
+        margin-left: 1px;
+        width: 304px;
+        height: 198px;
+        margin-top: 100px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+
+    html {
+        overflow-x: hidden;
+    }
+
+    .header {
+        background-position-y: 0px;
+    }
+
+    .block {
+        width: 80%;
+        flex-flow: column;
+    }
+
+    .img3 {
+        margin-left: -17px;
+        margin-top: 100px;
+    }
+
+    .img4 {
+        margin-left: 64px;
+        margin-top: 35px;
+        width: 300px;
+    }
+
+    .build {
+        /* margin-left: -11px; */
+        margin-left: 1px;
+        margin-top: -30px;
+        width: 400px;
+    }
+
+    .header h1 {
+        width: 680px;
+
+        font-size: 45px;
+
+    }
+
+    .left {
+        width: 45%;
+    }
+
+    .right {
+        display: none;
+    }
+
+    .left img {
+        display: none;
+    }
+
+    .under img {
+        margin-left: 30px;
+        width: 400px;
+        height: 300px;
+        margin-top: 100px;
+    }
+
+    .under {
+        width: 80%;
+    }
+
+    .five {
+        margin-left: 1px;
+        width: 304px;
+        height: 198px;
+        margin-top: 100px;
+    }
+
+    .top {
+        display: none;
+    }
+
+    .under img {
+        display: none;
+    }
+
+    p {
+        width: 100%;
+    }
+
+    .block button {
+        margin-left: 130px;
+    }
+
+    .left {
+        width: 100%;
+    }
+
+    .left p {
+        width: 100%;
+    }
+
+    .under {
+        width: 100%;
+    }
+
+    .under p {
+        width: 100%;
+    }
+}
+
+@media (min-width: 425px) and (max-width: 767px) {
+
+    html {
+        overflow-x: hidden;
+    }
+
+    .header {
+        background-position-y: 0px;
+    }
+
+    .block {
+        width: 80%;
+        flex-flow: column;
+    }
+
+    .img3 {
+        margin-left: -17px;
+        margin-top: 100px;
+    }
+
+    .img4 {
+        margin-left: 64px;
+        margin-top: 35px;
+        width: 300px;
+    }
+
+    .build {
+        /* margin-left: -11px; */
+        margin-left: 1px;
+        margin-top: -30px;
+        width: 400px;
+    }
+
+    .header h1 {
+        width: 387px;
+
+        font-size: 25px;
+
+    }
+
+    .left {
+        width: 45%;
+    }
+
+    .right {
+        display: none;
+    }
+
+    .left img {
+        display: none;
+    }
+
+    .under img {
+        margin-left: 30px;
+        width: 400px;
+        height: 300px;
+        margin-top: 100px;
+    }
+
+    .under {
+        width: 80%;
+    }
+
+    .five {
+        margin-left: 1px;
+        width: 304px;
+        height: 198px;
+        margin-top: 100px;
+    }
+
+    .top {
+        display: none;
+    }
+
+    .under img {
+        display: none;
+    }
+
+    p {
+        width: 100%;
+    }
+
+    .block button {
+        margin-left: -8px;
+    }
+
+    .left {
+        width: 100%;
+    }
+
+    .left p {
+        width: 100%;
+    }
+
+    .under {
+        width: 100%;
+    }
+
+    .under p {
+        width: 100%;
+        margin-top: 0;
+    }
+
+    .head {
+        width: 100%;
+        font-size: 9px;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 424px) {
+
+    html {
+        overflow-x: hidden;
+    }
+
+    .header {
+        background-position-y: 0px;
+    }
+
+    .block {
+        width: 80%;
+        flex-flow: column;
+    }
+
+    .img3 {
+        margin-left: -17px;
+        margin-top: 100px;
+    }
+
+    .img4 {
+        margin-left: 64px;
+        margin-top: 35px;
+        width: 300px;
+    }
+
+    .build {
+        /* margin-left: -11px; */
+        margin-left: 1px;
+        margin-top: -30px;
+        width: 400px;
+    }
+
+    .header h1 {
+        width: 387px;
+
+        font-size: 25px;
+
+    }
+
+    .left {
+        width: 45%;
+    }
+
+    .right {
+        display: none;
+    }
+
+    .left img {
+        display: none;
+    }
+
+    .under img {
+        margin-left: 30px;
+        width: 400px;
+        height: 300px;
+        margin-top: 100px;
+    }
+
+    .under {
+        width: 80%;
+    }
+
+    .five {
+        margin-left: 1px;
+        width: 304px;
+        height: 198px;
+        margin-top: 100px;
+    }
+
+    .top {
+        display: none;
+    }
+
+    .under img {
+        display: none;
+    }
+
+    p {
+        width: 100%;
+    }
+
+    .block button {
+        margin-left: -24px;
+    }
+
+    .left {
+        width: 100%;
+    }
+
+    .left p {
+        width: 100%;
+    }
+
+    .under {
+        width: 100%;
+    }
+
+    .under p {
+        width: 100%;
+        margin-top: 0;
+    }
+
+    .head {
+        width: 100%;
+        font-size: 9px;
+    }
+}
+
+
+@media (min-width: 320px) and (max-width: 374px) {
+
+    html {
+        overflow-x: hidden;
+    }
+
+    .header {
+        background-position-y: 0px;
+    }
+
+    .block {
+        width: 80%;
+        flex-flow: column;
+    }
+
+    .img3 {
+        margin-left: -17px;
+        margin-top: 100px;
+    }
+
+    .img4 {
+        margin-left: 64px;
+        margin-top: 35px;
+        width: 300px;
+    }
+
+    .build {
+        /* margin-left: -11px; */
+        margin-left: 1px;
+        margin-top: -30px;
+        width: 400px;
+    }
+
+    .header h1 {
+        width: 318px;
+        /* font-size: 21px; */
+        font-size: 21px;
+
+    }
+
+    .left {
+        width: 45%;
+    }
+
+    .right {
+        display: none;
+    }
+
+    .left img {
+        display: none;
+    }
+
+    .under img {
+        margin-left: 30px;
+        width: 400px;
+        height: 300px;
+        margin-top: 100px;
+    }
+
+    .under {
+        width: 80%;
+    }
+
+    .five {
+        margin-left: 1px;
+        width: 304px;
+        height: 198px;
+        margin-top: 100px;
+    }
+
+    .top {
+        display: none;
+    }
+
+    .under img {
+        display: none;
+    }
+
+    p {
+        width: 100%;
+    }
+
+    .block button {
+        margin-left: -18px;
+        width: 287px;
+    }
+
+    .left {
+        width: 100%;
+    }
+
+    .left p {
+        width: 100%;
+    }
+
+    .under {
+        width: 100%;
+    }
+
+    .under p {
+        width: 100%;
+        margin-top: 0;
+    }
+
+    .head {
+        width: 100%;
+        font-size: 9px;
+    }
+}
