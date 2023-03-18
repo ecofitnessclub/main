@@ -4,7 +4,7 @@
     margin: 0;
 }
 
-body {
+html {
     overflow-x: hidden;
 }
 
@@ -196,6 +196,137 @@ body {
 
     .footer ul {
         width: 90%;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .head h1 {
+        width: 100%;
+    }
+
+    .image {
+        background-position: 0 0;
+    }
+
+    .footer p {
+        width: 90%;
+        margin-top: -655px;
+    }
+
+    .middle {
+        width: 90%;
+    }
+
+    .footer ul {
+        width: 90%;
+    }
+
+    .filter,
+    .footer {
+        height: 705px;
+    }
+
+}
+
+@media (min-width: 425px) and (max-width: 767px) {
+    .head h1 {
+        width: 100%;
+        font-size: 25px;
+    }
+
+    .image {
+        background-position: 0 0;
+    }
+
+    .footer p {
+        width: 90%;
+        margin-top: -1221px;
+    }
+
+    .middle {
+        width: 90%;
+    }
+
+    .footer ul {
+        width: 90%;
+    }
+
+    .filter,
+    .footer {
+        height: 1229px;
+    }
+
+    .line {
+        width: 100%;
+    }
+
+}
+
+@media (min-width: 375px) and (max-width: 424px) {
+    .head h1 {
+        width: 100%;
+        font-size: 25px;
+    }
+
+    .image {
+        background-position: 0 0;
+    }
+
+    .footer p {
+        width: 90%;
+        margin-top: -1500px;
+    }
+
+    .middle {
+        width: 90%;
+    }
+
+    .footer ul {
+        width: 90%;
+    }
+
+    .filter,
+    .footer {
+        height: 1529px;
+    }
+
+    .line {
+        width: 100%;
+    }
+
+}
+
+@media (min-width: 320px) and (max-width: 374px) {
+    .head h1 {
+        width: 100%;
+        font-size: 22px;
+    }
+
+    .image {
+        background-position: 0 0;
+    }
+
+    .footer p {
+        width: 90%;
+        margin-top: -1700px;
+    }
+
+    .middle {
+        width: 90%;
+    }
+
+    .footer ul {
+        width: 90%;
+    }
+
+    .filter,
+    .footer {
+        height: 1749px;
+    }
+
+    .line {
+        width: 100%;
     }
 
 }
