@@ -236,7 +236,8 @@ html {
     }
 
     .image {
-        background-position: 0 0;
+        background-position-x: -500px;
+        background-position-y: 0;
     }
 
     .footer p {
@@ -270,7 +271,8 @@ html {
     }
 
     .image {
-        background-position: 0 0;
+        background-position-x: -500px;
+        background-position-y: 0;
     }
 
     .footer p {
@@ -304,7 +306,8 @@ html {
     }
 
     .image {
-        background-position: 0 0;
+        background-position-x: -500px;
+        background-position-y: 0;
     }
 
     .footer p {
