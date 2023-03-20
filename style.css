@@ -8,6 +8,205 @@ body {
     overflow-x: hidden;
 }
 
+.nav {
+    position: fixed;
+    width: 100vw;
+    height: 55px;
+    background: #27509B;
+    z-index: 2;
+
+}
+
+.content {
+    margin: 0 auto;
+    width: 50%;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.active {
+    text-decoration: underline !important;
+}
+
+.content a {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+
+.content a:hover {
+    text-decoration: underline;
+}
+
+.burger-menu {
+    display: none;
+}
+
+.menu-btn {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.menu-btn>span,
+.menu-btn>span::before,
+.menu-btn>span::after {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #ffffff;
+    transition-duration: .25s;
+}
+
+.menu-btn>span::before {
+    content: '';
+    top: -8px;
+}
+
+.menu-btn>span::after {
+    content: '';
+    top: 8px;
+}
+
+.menubox {
+    display: block;
+    position: fixed;
+    visibility: hidden;
+    top: -100%;
+    left: 00%;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 100px 0;
+    list-style: none;
+    background: rgba(255, 255, 255, 0.8);
+    box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+    transition-duration: .25s;
+}
+
+
+
+
+
+#menu-toggle:checked~.menu-btn>span {
+    transform: rotate(45deg);
+}
+
+#menu-toggle:checked~.menu-btn>span::before {
+    top: 0;
+    transform: rotate(0);
+}
+
+#menu-toggle:checked~.menu-btn>span::after {
+    top: 0;
+    transform: rotate(90deg);
+}
+
+#menu-toggle:checked~.menubox {
+    visibility: visible;
+    left: 0;
+}
+
+.menu-btn {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 15px;
+    right: 25px;
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.menu-btn>span,
+.menu-btn>span::before,
+.menu-btn>span::after {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #ffffff;
+    transition-duration: .25s;
+}
+
+.menu-btn>span::before {
+    content: '';
+    top: -8px;
+}
+
+.menu-btn>span::after {
+    content: '';
+    top: 8px;
+
+}
+
+
+
+.menu-item {
+    display: block;
+    padding: 12px 24px;
+    color: #333;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    text-decoration: none;
+    transition-duration: .25s;
+    margin-top: 30px;
+}
+
+.menu-item:hover {
+    background-color: #CFD8DC;
+    color: #27509B;
+}
+
+
+#menu-toggle {
+    opacity: 0;
+}
+
+#menu-toggle:checked~.menu-btn>span {
+    transform: rotate(45deg);
+    background-color: #000000;
+}
+
+#menu-toggle:checked~.menu-btn>span::before {
+    top: 0;
+    transform: rotate(0);
+    background-color: #000000;
+}
+
+#menu-toggle:checked~.menu-btn>span::after {
+    top: 0;
+    transform: rotate(90deg);
+    background-color: #000000;
+}
+
+#menu-toggle:checked~.menubox {
+    visibility: visible;
+    top: 0;
+}
+
 .header {
     background-image: url(images/57953077_10041.png);
     width: 100vw;
@@ -219,6 +418,29 @@ a {
     text-decoration: none;
 }
 
+.footer {
+    margin-top: 50px;
+    width: 100vw;
+    height: 66px;
+
+
+    background: #000000;
+}
+
+.footer p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 23px;
+}
+
 @media (min-width: 1440px) and (max-width: 1600px) {
 
     .header {
@@ -244,6 +466,10 @@ a {
 
     html {
         overflow-x: hidden;
+    }
+
+    .content {
+        width: 80%;
     }
 
     .header {
@@ -311,6 +537,10 @@ a {
 
     html {
         overflow-x: hidden;
+    }
+
+    .content {
+        width: 90%;
     }
 
     .owl-carousel {
@@ -422,6 +652,14 @@ a {
 
     .header {
         background-position-y: 0px;
+    }
+
+    .burger-menu {
+        display: block;
+    }
+
+    .content {
+        display: none;
     }
 
     .block {
@@ -537,6 +775,14 @@ a {
         background-position-y: 0px;
     }
 
+    .burger-menu {
+        display: block;
+    }
+
+    .content {
+        display: none;
+    }
+
     .block {
         width: 80%;
         flex-flow: column;
@@ -649,6 +895,14 @@ a {
 
     .header {
         background-position-y: 0px;
+    }
+
+    .burger-menu {
+        display: block;
+    }
+
+    .content {
+        display: none;
     }
 
     .block {
